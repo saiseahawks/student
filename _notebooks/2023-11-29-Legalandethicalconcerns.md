@@ -133,11 +133,42 @@ Data Privacy and Security:
 # <span style="color:cadetblue">Homework</span>
 
 1. Describe the key differences between the Creative Commons Zero v1.0 Universal, Open Source MIT License, and Open Source GPL License.
+        
+        Creative Commons Zero v1.0 Universal (CC0):
 
+        Purpose: CC0 is primarily designed for creative works like images, music, and text, allowing the creator to waive all their copyright and related rights.
+        Permissions: Users can copy, modify, distribute, and perform the work, even for commercial purposes, without asking for permission.
+        No Warranty: The license includes a disclaimer of warranties and limitations of liability.
+        Open Source MIT License:
+
+        Purpose: Commonly used for software, the MIT License is permissive, allowing for freedom to use the code with minimal restrictions.
+        Permissions: Users can do anything they want with the code as long as they include the original copyright and license notice in any copy or substantial portion of the software.
+        No Warranty: Like CC0, the MIT License comes with a disclaimer of warranty.
+        Open Source GPL License:
+
+        Purpose: The GNU General Public License (GPL) is designed to ensure that software remains free and open.
+        Permissions: Users can freely use, modify, and distribute the software. However, if they distribute a modified version, they must also distribute their source code under the same license.
+        Copyleft: GPL is a copyleft license, ensuring that derivative works must also be open source.
 2. Give examples that illustrate how companies, such as Qualcomm and Red Hat, have leveraged Open Source licenses to establish unique business models.
 
+        Qualcomm:
+
+        Qualcomm leverages open source in its development of mobile technologies. For instance, it contributes to the Linux kernel and other open-source projects related to mobile devices. By doing so, Qualcomm benefits from the collaborative development model and fosters innovation within the community.
+        Red Hat:
+
+        Red Hat is a significant player in the open-source space. It provides enterprise-level solutions based on open-source software, particularly the Linux operating system. Red Hat's business model revolves around support services, training, and certifications, demonstrating how a company can profit by providing value-added services around open-source products.
 3. Why are businesses that heavily rely on Open Source software still need to generate income and how they manage this within the constraints of Open Source licenses.
 
+        Support and Services:
+
+        Many companies offer support, consulting, and customization services for open-source software. Red Hat, for example, generates revenue by providing enterprise support for its open-source solutions.
+        Dual Licensing:
+
+        Some companies release software under both an open-source license and a commercial license. Users who want additional features or a version without open-source obligations can purchase the commercial license. MySQL, before its acquisition by Oracle, used this model.
+        SaaS and Cloud Services:
+
+        Companies can build and offer Software as a Service (SaaS) using open-source components. While the software itself is open source, the service built around it can be monetized. For example, companies like MongoDB and Elastic provide open-source software but monetize cloud-based services around them.
+        Donations and Sponsorships:
 # <span style="color:cadetblue">Extra Credit</span>
 
 Explain the significance of choosing an appropriate license for personal and team GitHub repositories, especially for the CPT project. How does this relate to the broader themes of legal and ethical concerns in computing?

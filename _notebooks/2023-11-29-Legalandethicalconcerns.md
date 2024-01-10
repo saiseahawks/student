@@ -170,6 +170,7 @@ Data Privacy and Security:
 
         Companies can build and offer Software as a Service (SaaS) using open-source components. While the software itself is open source, the service built around it can be monetized. For example, companies like MongoDB and Elastic provide open-source software but monetize cloud-based services around them.
         Donations and Sponsorships:
+        
 # <span style="color:cadetblue">Extra Credit</span>
 
 Explain the significance of choosing an appropriate license for personal and team GitHub repositories, especially for the CPT project. How does this relate to the broader themes of legal and ethical concerns in computing?

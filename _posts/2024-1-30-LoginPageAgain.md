@@ -2,7 +2,7 @@
 toc: true
 comments: true
 layout: post
-title: Login
+title: BadandFakeLogin
 type: hacks
 courses: { compsci: {week: 9} }
 ---
@@ -11,8 +11,6 @@ courses: { compsci: {week: 9} }
 
 <head>
 <script>
-    //import { uri, options } from '{{site.baseurl}}/assets/js/api/config.js';
-
     function login_user() {
       const enteredUid = document.getElementById("uid").value;
       const enteredPassword = document.getElementById("password").value;
@@ -20,27 +18,21 @@ courses: { compsci: {week: 9} }
       console.log("Password = " + enteredPassword)
       const signupHeaders = new Headers();
       signupHeaders.set('111', '222');
-      
       signupHeaders.set("Accept", "*/*");
       signupHeaders.set("Accept-Language", "en-US,en;q=0.9");
       signupHeaders.set("Content-Type", "application/json");
-
       login_api(enteredUid,enteredPassword)
-        
-      }
-    
-
+    }
     function login_api(uid, pw){
       var myHeaders = new Headers();
       myHeaders.append("Accept", "*/*");
       myHeaders.append("Accept-Language", "en-US,en;q=0.9");
       myHeaders.append("Content-Type", "application/json");
-      myHeaders.append("Cookie", "jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfdWlkIjoidG9ueSJ9.jEShka0oXI1-uCuSTfo3ed5WRw3ASLNV0Tpn1kc5GB0");
-
+      }
 
       var raw = JSON.stringify({
-          "uid": uid,
-          "password": pw
+          "uid": enteredUid,
+          "password": enteredPassword
         });
 
       var requestOptions = {
@@ -54,7 +46,7 @@ courses: { compsci: {week: 9} }
           .then(response => {
             if (response.ok) {
                 console.log("User logged in successfully");
-                window.location.href = "https://saiseahawks.github.io/student/"
+                window.location.href = "http://127.0.0.1:4200/student/2024/02/06/DataBase"
               } else {
                 console.error("User login failed");
                 // You can handle failed login attempts here
@@ -71,9 +63,6 @@ courses: { compsci: {week: 9} }
 
       
       //return response
-    }
-
-
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -93,7 +82,7 @@ courses: { compsci: {week: 9} }
     </p>
     <p>
      <button class="button-spacing">Log In</button>
-          <button onClick = "window.location.href ='https://tanav-kambhampati.github.io/student2/'" class="button-spacing" >Sign Up</button>
+     <button onClick = "window.location.href ='https://tanav-kambhampati.github.io/student2/'" class="button-spacing" >Sign Up</button>
 
       
     </p>

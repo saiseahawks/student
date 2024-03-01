@@ -9,7 +9,7 @@ comments: true
 
 **CPT Project Overview**
 
-Our CPT project is a video geam  website that allows users to select from multiple fun games to play and enjoy. Certain games are free to play while others need the user to create and account for the 
+Our CPT project is a video geam  website that allows users to select from multiple fun games to play and enjoy. Certain games are free to play while others need the user to create and account for. I specifically made the users feature and I would like to highlight the modify function that includes favorites which changes user data.
 
 <font size = "15">Component A - Program Code</font>
 

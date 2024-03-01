@@ -25,3 +25,11 @@ Our CPT project is a video geam  website that allows users to select from multip
 <font size = "15">Component B - Personal Video</font>
 
 [Link to my video](https://drive.google.com/file/d/1f0TmgSyhzqEQiaKImu0YRG_mVhnvHTSx/view?usp=drive_link)
+
+| Collegboard Requirements | My Video |
+|------------------|------------------|
+| Input to program  | Seen in video, entering game ID in text format  |
+| At least one aspect of the functionality of your program| The favorite game editor that changes user data  |
+| Output produced by program:  | The favorite game being added and displayed in the favorites page  |
+| My video does not have: | any distinguishing information and voice narration  |
+| My video is | a .webmb, less than 1 minute in length, less than 30MB in file size.  |

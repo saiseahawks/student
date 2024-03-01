@@ -24,7 +24,7 @@ Our CPT project is a video geam  website that allows users to select from multip
 
 <font size = "15">Component B - Personal Video</font>
 
-[Link to my video](https://drive.google.com/file/d/1f0TmgSyhzqEQiaKImu0YRG_mVhnvHTSx/view?usp=drive_link)
+[Link to my video](https://drive.google.com/file/d/1f0TmgSyhzqEQiaKImu0YRG_mVhnvHTSx/view)
 
 | Collegboard Requirements | My Video |
 |------------------|------------------|

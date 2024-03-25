@@ -139,9 +139,9 @@ courses: { compsci: { week: 11 } }
         </select><br><br>
         <label for="age">Age:</label>
         <input type="number" id="age" name="age" required><br><br>
-        <label for="sibsp">Siblings and Spouses Aboard:</label>
+        <label for="sibsp">Siblings/Spouses Aboard:</label>
         <input type="number" id="sibsp" name="sibsp" required><br><br>
-        <label for="parch">Parents and Children Aboard:</label>
+        <label for="parch">Parents/Children Aboard:</label>
         <input type="number" id="parch" name="parch" required><br><br>
         <label for="fare">Price of Ticket:</label>
         <input type="number" id="fare" name="fare" required><br><br>
@@ -151,7 +151,7 @@ courses: { compsci: { week: 11 } }
             <option value="Q">Queenstown</option>
             <option value="S">Southampton</option>
         </select><br><br>
-        <label for="alone">Check For Percentage:</label>
+        <label for="alone">Alone:</label>
         <input type="checkbox" id="alone" name="alone"><br><br>
         <button type="button" onclick="predictSurvival()">Will You Live????</button>
     </form>
@@ -176,12 +176,13 @@ courses: { compsci: { week: 11 } }
             for (var key in data) {
                 resultDiv.innerHTML += '<p1>' + key + ': ' + data[key] + '</p1>';
             }
-            var deathProbability = parseFloat(data['Probability You Will Die']);
-            var survivalProbability = parseFloat(data['Probability You Will Live']);
+            var deathProbability = parseFloat(data['Death probability']);
+            var survivalProbability = parseFloat(data['Survival probability']);
+            console.log(survivalPrabability);
             if (survivalProbability > deathProbability) {
-                resultDiv.innerHTML += '<h3>You might live</h3>';
+                resultDiv.innerHTML += '<h3>Congrats You Most Likely Didnt Die!!!</h3>';
             } else {
-                resultDiv.innerHTML += '<h3>Youre probably dead nigga</h3>';
+                resultDiv.innerHTML += '<h3>Youre probably dead my boy :( WOMP WOMP</h3>';
             }
         })
         .catch(error => {

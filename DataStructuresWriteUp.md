@@ -50,7 +50,9 @@ Our CPT project is a video geam  website that allows users to select from multip
 
 |In the Chrome browser, show a demo (POST or UPDATE) gathering and sending input and receiving a response that show update. Repeat this demo showing both success and failure.|Success:![text](<Screenshot 2024-04-17 at 1.13.47 AM.png>)![text](<Screenshot 2024-04-17 at 1.15.21 AM.png>) Failure: no response to click of button|
 
-|In JavaScript code, show and describe code that handles success. Describe how code shows success to the user in the Chrome Browser screen.|The code redirects upon success to a page where the newly entered data can be viewed. Typically this is set to the favorite page which is normally changed.|
+|In JavaScript code, show and describe code that handles success. Describe how code shows success to the user in the Chrome Browser screen.|The code redirects upon success to a page where the newly entered data can be viewed. Typically this is set to the favorite page which is normally changed.![image](<Screenshot 2024-04-18 at 11.21.26 AM.png>)|
+
+|In JavaScript code, show and describe code that handles failure. Describe how the code shows failure to the user in the Chrome Browser screen.|![image](<Screenshot 2024-04-18 at 11.17.22 AM.png>)|
 
 
 |Optional/Extra, Algorithm Analysis|Response|

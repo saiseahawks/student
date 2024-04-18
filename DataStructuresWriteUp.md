@@ -35,7 +35,7 @@ Our CPT project is a video geam  website that allows users to select from multip
 
 |In Postman, show the JSON response for error for 400 when missing body on a POST request.|![text](<Screenshot 2024-04-17 at 12.59.46 AM.png>)|
 
-|In Postman, show the JSON response for error for 404 when providing an unknown user ID to a UPDATE request.|![text](<Screenshot 2024-04-17 at 1.00.55 AM.png>)|
+|In Postman, show the JSON response for error for 404 when providing an unknown user ID to a UPDATE request.|![text](<Screenshot 2024-04-18 at 11.56.46 AM.png>)|
 
 
 |Frontend|Response|
